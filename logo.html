@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="logo.css">
+  <script src="logo.js"></script>
+  <script src="logo1.js"></script>
+  <style>
+	
+	
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .rowcontent {height: 500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+	position:fixed;
+	bottom:0;
+	width:1500px;
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .rowcontent {height: 500px;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	
+	<h2 style="color:white"><center><em>Hospital Management</center></em></h2>
+	<li><a href="#">Health Information</a></li>
+	<li><a href="#">Department</a></li>
+        <li><a href="#">Products</a></li>
+	<li><a href="#">Reseach</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Help</a></li>
+	
+      </ul>
+	</center>  <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  
+<div class="rowcontent">
+    <div class="col-sm-2 sidenav">
+     <tr><th>Adds</th></tr>
+	<tr><td><iframe width="200" height="200" src="https://www.youtube.com/embed/tR70tigZ5Tg">
+	</iframe></td></tr>
+	<tr><td><iframe width="200" height="200" src="https://www.youtube.com/embed/p0ysH2Glw5w">
+	</iframe></td></tr>
+	<tr><td><iframe width="200" height="200" src="https://www.youtube.com/embed/moSBmKUm0pk">
+	</iframe></td></tr>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Welcome</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+      
+      <img src="help.jpg" width="100%" height="80%">Logo
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+	
+	<tr>
+	<th>User Name</th>	
+	<td><input type="Email" name="email" value=""/></td>
+	</tr>
+	<tr>
+	<th>Password</th>
+	<td><input type="password" name="pwd" value=""/></td>
+	</tr>
+	<tr><td><button><a href="home.html">Login</button></a></td>
+	<td><button><a href="htmlcaa.html">Cancle</button></a></td></tr><br>
+	
+	
+      </div>
+      <div class="well">
+	<tr><th><center>New User Then Register</center></th>
+	<td><button><a href="register1.html">RegisterNow</button></a></td></tr>
+      </div>
+    </div>
+  </div>
+<footer class="container-fluid text-center">
+<td><center>@Copy right: </center>
+	<center>Contact number:9090909090</center>
+	<center>Emergency case:9704613998</center></td>
+</footer>
+</div>
+
+
+
+</body>
+
+</html>
